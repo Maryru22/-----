@@ -89,7 +89,7 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-BankAccount mary = new BankAccount("12849503856284", new BigDecimal("5054.1230984567"), "Мария", "896830517065", "СберБанк", "Черная пятница");
+BankAccount mary = new BankAccount("12849503856284", new BigDecimal("5054.1230984567"), "Мария", "896830517065", "СберБанк", "Банк возможностей");
 	//Проверяем баланс
         System.out.println(mary.showBalanse());
 	//Ложим на счет 1000
